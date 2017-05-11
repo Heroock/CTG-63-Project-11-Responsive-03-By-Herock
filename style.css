@@ -1,0 +1,516 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+img {
+	width: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* =========================== For Header Area ============================= */
+
+#logo-contact {
+	/* border: 1px solid black; */
+	font-family: Impact;
+	padding: 35px 14px 32px 14px;
+}
+
+.logo {
+	/* border: 1px solid black; */
+	/* margin-left: -.5px; */
+	margin-bottom: 10px;
+}
+
+.logo h1 {
+	/* border: 1px solid black; */
+	margin: 0px;
+	padding-top: 6.5px;
+}
+
+.contact {
+	/* border: 1px solid black; */
+	text-align: right;
+	margin-right: 0px; 
+	margin-top: 1.5px
+}
+
+.contact p {
+	/* border: 1px solid black; */
+	margin: 0px;
+	padding: 0px;
+	font-family: serif;
+	font-weight: bold;
+}
+
+/* ======================== Header Area End Here =========================== */
+
+/* ===================== Navbar Brand In The Center ======================== */
+
+.navbar {
+	border-bottom: 1px solid #dad2d2;
+	border-top: 1px solid #dad2d2;
+	display: block;
+	margin-bottom: -20px;
+	margin-top: -2px;
+	padding: 0px;
+}
+
+.navbar-brand {
+	display: block;
+	font-weight: 500;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+	padding: 25px 15px 0px 0px;
+	text-align: center;
+}
+
+.navbar .navbar-brand:hover {
+	color: red;
+}
+
+.rab>li>a {
+	padding: 25px;
+	display: block;
+}
+
+ul.navbar-left {
+	border-right: 1px solid #dad2d2;
+}
+
+ul.navbar-left li {
+	border-left: 1px solid #dad2d2;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	margin-left: -1px;
+	border: 1px solid #dad2d2; 
+	margin-top: 1px; 
+}
+
+.navbar-nav>li>.dropdown-menu>li {
+	border-left: 0px;
+}
+
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover {
+	color: blue;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: blue;
+}
+
+#social-icon {
+	 margin-right: 14px; 
+}
+
+#social-icon .fa {
+	border-radius: 50%;
+	border: 1px solid #dad2d2;
+	height: 40px;
+	padding: 12px 15px 15px 13px;
+	width: 40px;
+	transition: 2s;
+	color: #646464;
+}
+
+#social-icon a .fa-facebook {
+	padding-left: 15px;
+}
+
+#social-icon .fa-facebook:hover {
+	background: #2E428A;
+	border-color: #2E428A;
+	color: white;
+}
+
+#social-icon .fa-google-plus:hover {
+	background: #C93627;
+	border-color: #C93627;
+	color: white;
+}
+
+#social-icon .fa-twitter:hover {
+	background: #27ADED;
+	border-color: #27ADED;
+	color: white;
+}
+
+#social-icon .fa-linkedin:hover {
+	background: #247DB4;
+	border-color: #247DB4;
+	color: white;
+}
+
+#social-icon .fa-dribbble:hover {
+	background: #DA3278;
+	border-color: #DA3278;
+	color: white;
+}
+
+#sticky {
+	width: 100%;
+}
+
+.stick {
+	margin-top: 0 !important;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	box-shadow: 0px 0px 50px blue;
+}
+
+/* ================ Navbar Brand In The Center End Here ==================== */
+
+/* =================== Default Carousel Configuration ====================== */
+
+#my-carousel {
+	margin-top: 20px;
+}
+
+.carousel-caption {
+	font-size: 20px;
+	color: yellow;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#my-carousel .item {
+	height: 400px;
+}
+
+#slide1 {
+	background: url('images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+/* ============== Default Carousel Configuration End Here ================== */
+
+/* =================== Start Big-Callout With Alert ======================== */
+
+.well {
+	margin: 20px 0;
+}
+
+.lead {
+	text-align: justify;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+#success-alert {
+	text-align: center
+}
+
+/* ===================== Big-Callout With Alert End Here =================== */
+
+/* ======================= Features Panel With Heading ===================== */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+/* =================== Features Panel With Heading End Here ================ */
+
+/* ====================== Tabbable Area With Tab Content =================== */
+
+iframe {
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+#more-info {
+	text-align: justify;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 10px 5px 0;
+	margin-top: 5px
+}
+
+#input-message {
+	margin-bottom: 15px;
+}
+
+div.modal {
+	z-index: 999999999;
+}
+
+/* ================= Tabbable Area With Tab Content End Here =============== */
+
+/* ======================= Thumbnail Area With Content ===================== */
+
+.thumbnails {
+	margin-top: 15px;
+}
+
+#thumbnail {
+	text-align: justify
+}
+
+#thumbnail h3 {
+	margin-bottom: 25px
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail img {
+	margin-bottom: 10px;
+}
+
+.thumbnail .price {
+	font-size: 20px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+/* ================== Thumbnail Area With Content End Here ================= */
+
+/* ============================= Footer Option ============================= */
+footer {
+	background: gray;
+	color: white;
+	font-weight: bold;
+	padding: 20px 0px 10px 0px;
+	text-align: center;
+}
+
+/* ======================== Footer Option End Here ========================= */
+
+/* ======================== Start Media Queries ============================ */
+
+@media (max-width: 320px) {
+	.logo {
+		margin-right: -1.5px;
+	}
+	.contact p {
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.thumbnail .price {
+		font-size: 14px;
+		padding: 5px;
+	}
+	.thumbnail span.glyphicon {
+		margin-right: 0px;
+	}
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	#my-carousel .item {
+		height: 310px;
+	}
+	#slide1 {
+		background: url('images/carousel_small_01.jpg') top center no-repeat;
+	}
+	#slide2 {
+		background: url('images/carousel_small_02.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('images/carousel_small_03.jpg') top center no-repeat;
+	}
+	.carousel-caption {
+		font-size: 16px;
+	}
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	.thumbnail img {
+		width: 768px;
+	}
+	.thumbnail {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.logo {
+		margin-left: -2px;
+	}
+	.contact p {
+		text-align: center;
+	}
+	#navbar .collapse {
+		border-top: 1px solid gray;
+	}
+	#navbar-responsive-collapse>.rab>li>a {
+		padding: 25px 26px 25px 26.3px;
+		display: block;
+		border-right: 1px solid gray;
+		border-left: 1px solid gray;
+	}
+	ul.navbar-left li {
+		/* border-left: 1px solid #dad2d2; */
+		border-left: 0px;
+		border-bottom: 1px solid gray;
+	}
+	ul.navbar-left {
+		/* border-top: 1px solid black; */
+		/* border-right: 1px solid black; */
+		border-right: 0px;
+		margin-top: -8px;
+	}
+	.navbar-header>button {
+		margin-top: 18px;
+	}
+}
+
+@media (max-width: 768px) {
+	#logo-contact {
+		text-align: center;
+		padding: 20px;
+		margin-bottom: -15px;
+	}
+	.logo {
+		/* margin-right: -4.5px; */
+	}
+	.contact p {
+		text-align: center;
+	}
+	#hidden {
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#hidden-icon a i.fa {
+		border-radius: 50%;
+		border: 1px solid #dad2d2;
+		height: 40px;
+		padding: 12px 15px 15px 13px;
+		width: 40px;
+		transition: 2s;
+		color: #646464;
+	}
+	#hidden-icon a i.fa-facebook {
+		padding-left: 15px;
+	}
+	#hidden-icon .fa-facebook:hover {
+		background: #2E428A;
+		border-color: #2E428A;
+		color: white;
+	}
+	#hidden-icon .fa-google-plus:hover {
+		background: #C93627;
+		border-color: #C93627;
+		color: white;
+	}
+	#hidden-icon .fa-twitter:hover {
+		background: #27ADED;
+		border-color: #27ADED;
+		color: white;
+	}
+	#hidden-icon .fa-linkedin:hover {
+		background: #247DB4;
+		border-color: #247DB4;
+		color: white;
+	}
+	#hidden-icon .fa-dribbble:hover {
+		background: #DA3278;
+		border-color: #DA3278;
+		color: white;
+	}
+	#navbar-responsive-collapse>.rab>li>a {
+		padding: 25px 26px 25px 26.3px;
+		display: block;
+	}
+}
+
+@media (max-width: 1024px) {
+	.contact {
+		/* margin-right: 2px; */
+	}
+	.Navbar-Area .navbar {
+		/* border-bottom: 1px solid black; */
+	}
+	.rab>li>a {
+		padding: 25px 24px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#my-carousel .item {
+		height: 500px;
+	}
+	#slide1 {
+		background: url('images/carousel_large_01.jpg') top center no-repeat;
+	}
+	#slide2 {
+		background: url('images/carousel_large_02.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('images/carousel_large_03.jpg') top center no-repeat;
+	}
+}
+
+/* ======================== Start Media Queries ============================ */
+
+/* ========================== CSS Styling End Here =========================== */
